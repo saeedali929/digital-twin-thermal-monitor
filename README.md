@@ -1,16 +1,16 @@
 # Digital Twin for Resource-Constrained Systems (IoT/Embedded Focus)
 
-## 🚀 Overview
+Overview
 This project demonstrates a proof-of-concept **Digital Twin** for thermal state monitoring. It integrates Python simulation with the ThingsBoard IoT platform to implement an **Active Decision Support System (DSS)**. The goal is to move from reactive logging to autonomous, pro-active anomaly management in real-time.
 
-## 🔗 Live Environment Access
+Live Environment Access
 
 | Component | Status | Link |
 | :--- | :--- | :--- |
 | **Code Simulation** | Live | [**Click to Open & Run in Google Colab**](https://colab.research.google.com/drive/1jDyAVMYbERqm9PCjww491LX7KJYUrJ6O?authuser=0#scrollTo=_8YGMyvOZ_Me) |
 | **Live Dashboard (HMI)** | Active | [**Click to View Live ThingsBoard Dashboard**](https://demo.thingsboard.io/dashboards/f7f8f720-d9b2-11f0-aedf-65a2559b1d36) |
 
-## 📐 Architecture & Methodology
+ Architecture & Methodology
 
 ### 1. Virtual Edge / Simulation Layer (Python/Colab)
 * **Stochastic Modeling:** Utilizes Python's `random.gauss` to simulate realistic thermal data, including inherent noise and gradual thermal drift over time.
